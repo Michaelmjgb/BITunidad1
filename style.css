@@ -1,0 +1,273 @@
+title {
+    display: none; /
+}
+
+
+.navbar-brand {
+    font-weight: 800;
+    color: #ffc107 !important; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+}
+
+
+h1.titulo-principal {
+    font-weight: 800;
+    color: #ffc107;
+    font-family: 'Arial Black', sans-serif; 
+}
+
+.btn-registro {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+    
+    
+    color: #000 !important;
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-registro:hover {
+    background-color: #ffca28;
+    border-color: #ffca28;
+    color: #000 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .d-flex {
+    align-items: center;
+}
+
+.text-warning{font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-bottom: 2%;
+}
+
+.titulo-ofertas {
+    font-size: 3rem;       
+    font-weight: 700;      
+    text-transform: uppercase; 
+    margin-bottom: 1rem;   
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+    line-height: 1.2;       
+    color: inherit;        
+  }
+
+ 
+.card-herramientas1 {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url(./Img/herramientas\ electricas\ fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.card-herramientas2 {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url(./Img/Pinturas\ fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.card-herramientas3 {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url(./Img/estantes\ fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.card-servicios {
+    min-height: 250px;
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./Img/aseoria\ fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.card-servicios .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card-servicios .card-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.card-servicios .card-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-servicios .card-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+}
+
+.card-servicios .card-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.card-materiales {
+    min-height: 250px;
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./Img/contratistas\ fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    transition: transform 0.3s ease; 
+}
+
+.card-materiales:hover {
+    transform: translateY(-5px); 
+}
+
+.card-materiales .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card-materiales .card-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.card-materiales .card-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.card-materiales .card-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+}
+
+.card-materiales .card-button:hover {
+    background-color: white;
+    color: #333; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.redsocial {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+    width: 300px; 
+    gap: 20px; 
+}
+
+.redsocial a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    transition: transform 0.3s ease;
+}
+
+.redsocial a:hover {
+    transform: scale(1.1); 
+}
+
+.redsocial svg {
+    width: 40px; 
+    height: 40px; 
+}
+
+
+.social-link1 svg {
+    fill: #1877f2; 
+}
+
+.social-link2 svg {
+    fill: #25D366; 
+}
+
+.social-link3 svg {
+    
+    fill: url(#instagram-gradient);
+}
+
+.social-link4 svg {
+    fill: #000000; 
+}
+
+.payment-methods {
+    gap: 10px; 
+}
+
+.img-payment {
+    width: 40px; 
+    height: auto;
+    max-height: 25px;
+    transition: opacity 0.3s ease;
+}
+
+.img-payment:hover {
+    opacity: 0.8; 
+}
