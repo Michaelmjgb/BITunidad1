@@ -1,4 +1,4 @@
-/* Estilos para el formulario de registro */
+
 .card {
     border-radius: 10px;
     overflow: hidden;
@@ -41,13 +41,13 @@
     border-color: #ffc107;
 }
 
-/* Estilo para los labels */
+
 .form-label {
     color: #333;
     margin-bottom: 8px;
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
     .card-body {
         padding: 2rem !important;

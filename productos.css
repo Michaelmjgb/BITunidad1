@@ -1,0 +1,100 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: #ffc107 !important; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+} 
+ 
+.fixed-width-input {
+    width: 400px;
+  }
+  
+.product-card {
+    background-color: #f2f4f5;
+    color: #212529;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+.product-card img {
+    max-height: 140px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.product-card .product-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.product-card .product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #198754;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-card .btn-add {
+    margin: 10px auto 20px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #198754;
+    background-color: transparent;
+    color: #198754;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product-card .btn-add:hover {
+    background-color: #198754;
+    color: #fff;
+}
+
+a[href="./carriito.html"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ffc107;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+a[href="./carriito.html"]:hover {
+    background-color: #f8e21f;
+}
+
+a[href="./carriito.html"]:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+}

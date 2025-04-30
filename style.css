@@ -16,11 +16,29 @@ h1.titulo-principal {
     font-family: 'Arial Black', sans-serif; 
 }
 
+/* Estilos para los botones de registro e inicio de sesión */
+
+
+.btn-inicio-sesion {
+    background-color: #ffc107;
+    color: rgb(0, 0, 0);
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    font-size: 0.8rem;
+}
+
+.btn-inicio-sesion:hover {
+    background-color: #ffdfdf;
+}
+
 .btn-registro {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
-    font-weight: 600;
-    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
     text-align: center;
     text-decoration: none;
     border-radius: 0.25rem;
@@ -38,13 +56,8 @@ h1.titulo-principal {
 }
 
 .btn-registro:hover {
-    background-color: #ffca28;
-    border-color: #ffca28;
-    color: #000 !important;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffdfdf;
 }
-
 
 .navbar .d-flex {
     align-items: center;
